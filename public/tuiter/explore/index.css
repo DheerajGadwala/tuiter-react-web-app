@@ -1,248 +1,222 @@
-:root {
-    --my_dark_grey: rgb(25, 27, 29);
-    --my_grey: rgb(47, 51, 54);
-    --my_light_grey: rgb(139, 144, 148);
-    --my_blue: rgb(29,161,242)
-}
-
 body {
-    background-color: black;
-}
-
-.wd-wireframe-container {
-    width: 95vw;
-    padding: 1vh 0 0 0;
-    margin: 0 1vw 0 1vw;
-    border: solid var(--my_grey);
-    border-width: 1px;
-    display: flex;
-    flex-direction: column;
-}
-
-.wd-a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.wd-search-bar {
-    display: flex;
-    flex-direction: row;
-    margin-left: 12px;
-}
-
-.wd-search-icon-container {
-    width: 60px;
-    height: 35px;
-    background-color: var(--my_grey);
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;   
-}
-
-.wd-search-icon-circle {
-    width: 10px;
-    height: 10px;
-    border: solid var(--my_light_grey);
-    border-width: 1px;
-    border-radius: 10px;
-}
-
-.wd-search-icon-line {
-    width: 3px;
-    border: solid var(--my_light_grey);
-    border-width: 1px;
-    transform: rotate(35deg);
-    position: relative;
-    top: 5px;
-    right: 2px;
-}
-
-.wd-search-bar-input {
-    width: 70vw;
-    outline: none;
-    box-shadow: none;
-    background-color: var(--my_grey);
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border: none;
-    color: azure;
-}
-
-.wd-settings-icon-container {
-    margin-right: 12px;
-}
-
-.wd-settings {
-    color: var(--my_blue);
-}
-
-
-.wd-b {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding-bottom: 7px;
-}
-.wd-nav-section {
-    text-align: center;
-    justify-content:space-around;
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    margin: 16px 16px 0 16px;
-    padding-bottom: 16px;
-    font-size: 15px;
-    text-decoration: none;
-    color: rgb(110, 118, 125);
-}
-
-.wd-nav-selected {
-    color: var(--my_blue);
-    border-bottom: solid var(--my_blue) 3px;
-}
-
-.wd-dividor {
-    width: 100%;
-    height: 5px;
-    border-bottom: solid 1px var(--my_grey);
-    border-top: solid 2px var(--my_grey);
-    background-color: var(--my_dark_grey);
-}
-
-.wd-suggested-post {
-    width: 100%;
-    border-bottom: solid var(--my_grey) 1px;
-    padding-left: 5px;
-}
-.wd-suggested-post-topic {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-    padding: 3px;
-}
-
-.wd-suggested-post-title {
-    font-weight: bold;
-    color: azure;
-    font-size: 16;
-    padding: 3px;
-}
-
-.wd-suggested-post-number {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-    padding: 3px;
-}
-
-.wd-suggested-post-b {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: solid var(--my_grey) 1px;
-    padding-left: 5px;
-}
-
-.wd-suggested-post-b-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.wd-suggested-post-b-l1 {
-    padding-top: 6px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.wd-suggested-post-b-author {
-    font-weight: bold;
-    color: azure;
-    font-size: 16;
-}
-
-.wd-suggested-post-b-when {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-suggested-post-b-matter {
-    padding-top:6px;
-    font-weight: bold;
-    color: azure;
-    font-size: 16;
-}
-
-.wd-suggested-post-b-image {
-    margin: 5px 16px 5px 0px;
-    border-radius: 20px;
-    width: 100px;
-    height: 100px;
-}
-
-.wd-suggested-post-c {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: solid var(--my_grey) 1px;
-    padding-left: 5px;
-}
-
-.wd-suggested-post-c-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.wd-suggested-post-c-title-and-when {
-    padding-top: 6px;
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-suggested-post-c-matter {
-    padding-top:6px;
-    font-weight: bold;
-    color: azure;
-    font-size: 16;
-}
-
-.wd-suggested-post-c-image {
-    margin: 5px 16px 5px 0px;
-    border-radius: 20px;
-    width: 100px;
-    height: 100px;
-}
-
-.wd-suggested-post-dots {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 94%;
-    width: 10px;
-    top: 6px;
-}
-
-.wd-dot {
-    width: 2px;
-    height: 2px;
-    background-color: var(--my_light_grey);
-    padding: 1px;
-    margin: 1px;
-    border-radius: 5px;
-} 
-
-.wd-outer-dot-white {
+    margin: 0;
+    padding: 0;
     background-color: white;
+    color: black;
 }
 
-.wd-outer-dots {
-    padding-left: 5px;
-    padding-bottom: 6px;
+.wd-card-style-inner {
+    padding: 12px;
+    padding-top: 0px;
+}
+
+.wd-card-style-inner>div {
+    border: solid 1px #adb5bd;
+    border-top: 0px;
+}
+
+.wd-grey-tags {
+    color: #717171;
+}
+
+.btn-primary-override-bs {
+    background-color: white;
+    border-color: black;
+}
+
+.wd-tweet-button {
+    margin: 0;
+    padding: 5px 8% 5px 8% !important;
+    color: white;
+    float: left;
+    width: 84% !important;
+    border: 0px !important;
+}
+
+.list-group-item[aria-expanded="true"]{
+    background-color: white !important;
+    border-color: #aed248;
+}
+
+.nav-style {
+    color: #bcbebf;
+}
+
+.active {
+    border-bottom: solid 4px rgb(29 155 240);
+    padding: 0.5rem 0 1rem 0;
+    margin: 0 1rem;
+    color: black;
+    font-weight: bold;
+}
+.wd-card-style {
+    padding: 0;
+    border-right: #adb5bd;
+    border-left: #adb5bd;
+    border-width: thick;
+    margin-top: 1px;
+}
+
+.wd-selected {
+    color: black !important;
+    font-weight: bold;
+}
+
+.wd-dark-mode {
+    background-color: white;
+    color: rgb(53, 52, 52);
+    border-color: white;
+}
+
+.wd-who-to-follow {
+    padding: 0;
+    margin-left: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: black;
+    width: 60%;
+    border-color: #aed248;
+}
+
+.wd-image-size-company {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.wd-grey-mode>div>div>button {
+    color: white !important;
+    background-color: black !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wd-grey-mode {
+    background-color: rgb(239 243 244);
+    color: black;
+    border-color: rgb(239 243 244);
+}
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-search-link {
+    background-color: rgb(239 243 244);
+    border-color: rgb(239 243 244);
+    color: rgb(110, 118, 125);
+    width: 95%;
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-font-weight {
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+    color: black;
+}
+
+.wd-hyperlinks {
+    font-size : 15px;
+    padding: 16px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-highlighted {
+    color: rgb(29,161,242);
+}
+
+.wd-grid-col-left-sidebar {
+    width: 15%;
+    float: left;
+}
+
+.wd-grid-col-main-content {
+    width: 60%;
+    float: left;
+}
+.wd-grid-col-right-sidebar {
+    width: 20%;
+    float: left;
+}
+
+.wd-grid-col-half-page {
+    width: 50%;
+    float: left;
+}
+
+.wd-grid-col-right-half-page {
+    width: 10%;
+    float: left;
+}
+
+.wd-fg-color-black { 
+    color: black; 
+}
+
+.wd-fg-color-white { 
+    color: black; 
+}
+
+.wd-fg-color-blue { 
+    color: rgb(29 155 240); 
+}
+
+.wd-fg-color-red { 
+    color: #ff7070; 
+}
+
+.wd-fg-color-green { 
+    color: green; 
+}
+
+.wd-fg-color-darggray {
+    color: darkgray
+}
+
+.wd-fg-color-dimgray {
+    color: dimgray
+}
+
+.wd-bg-color-blue { background-color: rgb(29 155 240); }
+
+.wd-bg-color-black
+{ background-color: white; }
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
 }
