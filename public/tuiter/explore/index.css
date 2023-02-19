@@ -8,10 +8,11 @@ body {
 .wd-card-style-inner {
     padding: 12px;
     padding-top: 0px;
+    margin-top: 5px;
+    background-color: rgb(34 34 34);
 }
 
 .wd-card-style-inner>div {
-    border: solid 1px #adb5bd;
     border-top: 0px;
 }
 
@@ -42,8 +43,30 @@ body {
     color: #bcbebf;
 }
 
-.active {
-    border-bottom: solid 4px rgb(29 155 240);
+.wd-flex-cent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.wd-nav-color>li>a {
+    color: white !important;
+    margin-left: 0px !important;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+}
+
+.wd-nav-color {
+    padding: 0 !important;
+    border-bottom: solid 1px rgb(121, 121, 121);
+    margin-bottom: 4px !important;
+}
+
+.wd-active {
+    background-color: rgb(41 159 214) !important;
     padding: 0.5rem 0 1rem 0;
     margin: 0 1rem;
     color: black;
@@ -58,14 +81,53 @@ body {
 }
 
 .wd-selected {
-    color: black !important;
+    background-color: rgb(41 159 214) !important;
+    border-color: rgb(41 159 214) !important;
     font-weight: bold;
 }
 
+.wd-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-row2>i {
+    padding: 0px 5px;
+}
+
+.wd-follow {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
 .wd-dark-mode {
-    background-color: white;
     color: rgb(53, 52, 52);
-    border-color: white;
+    background-color: rgb(34 34 34);
+}
+
+.wd-post {
+    padding: 10px !important;
+}
+
+.wd-post-img {
+    background-color: rgb(34 34 34) !important;
+    color: aliceblue;
+    padding: 0px !important;
+    margin: 10px !important;
+    width: 75%;
+}
+
+.wd-img-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .wd-who-to-follow {
@@ -81,13 +143,13 @@ body {
 .wd-image-size-company {
     margin: 0;
     padding: 0;
-    margin-left: 10px;
-    width: 10%;
+    width: 15% !important;
+    max-width: 15% !important;
+    padding: 0 !important;
 }
 
 .wd-grey-mode>div>div>button {
     color: white !important;
-    background-color: black !important;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -98,7 +160,8 @@ body {
     border-color: rgb(239 243 244);
 }
 .wd-rounded-corners-all-around {
-    border-radius: 50px;
+    border-radius: 50px !important;
+    padding: 0px !important;
 }
 
 .wd-search-link {
@@ -219,4 +282,152 @@ input {
 
 .wd-float-right {
     float: right;
+}
+
+.wd-follow>button {
+    background-color: rgb(41 159 214) !important;
+    border-color: rgb(41 159 214) !important;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.wd-bookmark {
+    border: solid rgb(47, 51, 54) 1px;
+    margin: 15px;
+}
+
+.wd-main-heading {
+    margin-left: 16px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wd-user-name {
+    margin-left: 16px;
+    color: lightgray;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.wd-head {
+    border-bottom: solid rgb(47, 51, 54) 1px;
+}
+
+.wd-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-user-image {
+    margin-left: 16px;
+    margin-top: 12px;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.wd-tuit {
+    margin-top: 12px;
+    padding-left: 12px;
+    padding-right: 16px;
+    max-width: 506px;
+}
+
+.wd-name-uname-date {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-uname {
+    font-size: 15px;
+    padding: 0 2px 0 2px;
+    color: lightgray;
+}
+
+.wd-date {
+    font-size: 15px;
+    padding: 0 2px 0 2px;
+    color: lightgray;
+}
+
+.wd-content {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.wd-post-pic {
+    width:504px;
+    height: 264px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-bottom: 12px;
+}
+
+.wd-img-heading {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.wd-img-text {
+    color: lightgray;
+}
+
+.wd-img-and-content {
+    border: solid rgb(47, 51, 54) 1px;
+    border-radius: 30px;
+}
+
+.wd-img-content {
+    padding: 12px;
+}
+
+.wd-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    color: lightgray;
+}
+
+.wd-icons a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.wd-icons i {
+    padding-right: 12px;
+}
+
+.wd-red i {
+    color: red;
+}
+
+.wd-red span {
+    color: red;
+}
+
+.wd-img-link {
+    color: lightgray;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 6px 0 0 0;
+}
+
+.wd-img-link i {
+    padding-right: 6px;
 }

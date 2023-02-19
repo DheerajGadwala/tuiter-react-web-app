@@ -1,0 +1,436 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.wd-card-style-inner {
+    padding: 12px;
+    padding-top: 0px;
+    margin-top: 5px;
+    background-color: rgb(34 34 34);
+}
+
+.wd-card-style-inner>div {
+    border-top: 0px;
+}
+
+.wd-grey-tags {
+    color: #717171;
+}
+
+.btn-primary-override-bs {
+    background-color: white;
+    border-color: black;
+}
+
+.wd-tweet-button {
+    margin: 0;
+    padding: 5px 8% 5px 8% !important;
+    color: white;
+    float: left;
+    width: 84% !important;
+    border: 0px !important;
+}
+
+.list-group-item[aria-expanded="true"]{
+    background-color: white !important;
+    border-color: #aed248;
+}
+
+.nav-style {
+    color: #bcbebf;
+}
+
+.wd-flex-cent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.wd-nav-color>li>a {
+    color: white !important;
+    margin-left: 0px !important;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    
+}
+
+.wd-nav-color {
+    padding: 0 !important;
+    border-bottom: solid 1px rgb(121, 121, 121);
+    margin-bottom: 4px !important;
+}
+
+.wd-active {
+    background-color: rgb(41 159 214) !important;
+    padding: 0.5rem 0 1rem 0;
+    margin: 0 1rem;
+    color: black;
+    font-weight: bold;
+}
+.wd-card-style {
+    padding: 0;
+    border-right: #adb5bd;
+    border-left: #adb5bd;
+    border-width: thick;
+    margin-top: 1px;
+}
+
+.wd-selected {
+    background-color: rgb(41 159 214) !important;
+    border-color: rgb(41 159 214) !important;
+    font-weight: bold;
+}
+
+.wd-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-row2>i {
+    padding: 0px 5px;
+}
+
+.wd-follow {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
+.wd-dark-mode {
+    color: rgb(53, 52, 52);
+    background-color: rgb(34 34 34);
+}
+
+.wd-post {
+    padding: 10px !important;
+}
+
+.wd-post-img {
+    background-color: rgb(34 34 34) !important;
+    color: aliceblue;
+    padding: 0px !important;
+    margin: 10px !important;
+    width: 75%;
+}
+
+.wd-img-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wd-who-to-follow {
+    padding: 0;
+    margin-left: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: black;
+    width: 60%;
+    border-color: #aed248;
+}
+
+.wd-image-size-company {
+    margin: 0;
+    padding: 0;
+    width: 15% !important;
+    padding: 0 !important;
+}
+
+.wd-grey-mode>div>div>button {
+    color: white !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wd-grey-mode {
+    background-color: rgb(239 243 244);
+    color: black;
+    border-color: rgb(239 243 244);
+}
+.wd-rounded-corners-all-around {
+    border-radius: 50px !important;
+    padding: 0px !important;
+}
+
+.wd-search-link {
+    background-color: rgb(239 243 244);
+    border-color: rgb(239 243 244);
+    color: rgb(110, 118, 125);
+    width: 95%;
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.wd-font-weight {
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+    color: black;
+}
+
+.wd-hyperlinks {
+    font-size : 15px;
+    padding: 16px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-highlighted {
+    color: rgb(29,161,242);
+}
+
+.wd-grid-col-left-sidebar {
+    width: 15%;
+    float: left;
+}
+
+.wd-grid-col-main-content {
+    width: 60%;
+    float: left;
+}
+.wd-grid-col-right-sidebar {
+    width: 20%;
+    float: left;
+}
+
+.wd-grid-col-half-page {
+    width: 50%;
+    float: left;
+}
+
+.wd-grid-col-right-half-page {
+    width: 10%;
+    float: left;
+}
+
+.wd-fg-color-black { 
+    color: black; 
+}
+
+.wd-fg-color-white { 
+    color: black; 
+}
+
+.wd-fg-color-blue { 
+    color: rgb(29 155 240); 
+}
+
+.wd-fg-color-red { 
+    color: #ff7070; 
+}
+
+.wd-fg-color-green { 
+    color: green; 
+}
+
+.wd-fg-color-darggray {
+    color: darkgray
+}
+
+.wd-fg-color-dimgray {
+    color: dimgray
+}
+
+.wd-bg-color-blue { background-color: rgb(29 155 240); }
+
+.wd-bg-color-black
+{ background-color: white; }
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-follow>button {
+    background-color: rgb(41 159 214) !important;
+    border-color: rgb(41 159 214) !important;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.wd-bookmark {
+    border: solid rgb(47, 51, 54) 1px;
+    margin: 15px;
+}
+
+.wd-main-heading {
+    margin-left: 16px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wd-user-name {
+    margin-left: 16px;
+    color: lightgray;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.wd-head {
+    border-bottom: solid rgb(47, 51, 54) 1px;
+}
+
+.wd-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-user-image {
+    margin-left: 16px;
+    margin-top: 12px;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+
+.wd-tuit {
+    margin-top: 12px;
+    padding-left: 12px;
+    padding-right: 16px;
+    width: calc(100% - 92px);
+}
+
+.wd-name-uname-date {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wd-uname {
+    font-size: 15px;
+    padding: 0 2px 0 2px;
+    color: lightgray;
+}
+
+.wd-date {
+    font-size: 15px;
+    padding: 0 2px 0 2px;
+    color: lightgray;
+}
+
+.wd-content {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.wd-post-pic {
+    width:-webkit-fill-available;
+    height: 264px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.wd-rounded-bottom {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.wd-img-heading {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.wd-img-text {
+    color: lightgray;
+}
+
+.wd-img-and-content {
+    border: solid rgb(47, 51, 54) 1px;
+    border-radius: 30px;
+}
+
+.wd-img-content {
+    padding: 12px;
+}
+
+.wd-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    color: lightgray;
+}
+
+.wd-icons a {
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+}
+
+.wd-icons i {
+    padding-right: 12px;
+}
+
+.wd-red i {
+    color: red;
+}
+
+.wd-red span {
+    color: red;
+}
+
+.wd-img-link {
+    color: rgb(127, 127, 127);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 6px 0 0 0;
+}
+
+.wd-img-link i {
+    padding-right: 6px;
+}
