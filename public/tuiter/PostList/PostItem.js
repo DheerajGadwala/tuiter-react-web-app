@@ -25,7 +25,7 @@ const PostItem = (post) => {
                     } 
                 </div>
                 <div class="wd-icons">
-                    <a href="#"><i class='fa fa-comment-o'></i><span>${post.comments}</span></a>
+                    <a href="#"><i class='fa fa-comment'></i><span>${post.comments}</span></a>
                     <a href="#"><i class='fa fa-retweet'></i><span>${post.shares}</span></a>
                     <a href="#"><i class='fa fa-heart'></i><span>${post.likes}</span></a>
                     <a href="#"><i class='fa fa-share'></i></a>
