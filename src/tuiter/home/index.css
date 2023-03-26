@@ -420,6 +420,13 @@ input {
 .wd-icons svg {
     padding-right: 12px;
 }
+.wd-icons i {
+    padding-right: 12px;
+}
+
+.wd-red-heart {
+    color:rgb(177, 2, 2);
+}
 
 .wd-red svg {
     color: red;
@@ -440,4 +447,12 @@ input {
 
 .wd-img-link i {
     padding-right: 6px;
+}
+
+.wd-close-right {
+    right: 5%;
+}
+
+.wd-close-right:hover{
+    cursor: pointer;
 }

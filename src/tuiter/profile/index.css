@@ -1,0 +1,96 @@
+.wd-profile-info span {
+    margin-right: 8px;
+}
+.wd-profile-stats span {
+    margin-right: 8px;
+}
+.wd-profile-picture {
+    position: relative;
+    border-radius: 50%;
+    width: 100px;
+    bottom: 50px;
+    left: 1%;
+}
+.wd-profile-name {
+    margin-top: -40px;
+    margin-bottom: 0px
+}
+.wd-edits {
+    margin-top: -40px;
+}
+
+.wd-profile-handle {
+    color:rgb(113, 108, 108);
+    margin-bottom: 20px;
+}
+.wd-edit-profile-button {
+    float: right;
+    padding: 3px 10px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+.wd-save-profile-button {
+    padding: 3px 15px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 100px;
+}
+.wd-save-profile-button:hover {
+    color: azure;
+    background-color: gray;
+}
+.wd-edit-profile-button:hover {
+    color: azure;
+    background-color: gray;
+}
+.wd-edit-profile-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-edit-profile-heading div{
+    display: flex;
+    font-weight: 700;
+}
+
+.wd-edit-profile-heading div a {
+    color: black;
+}
+
+.wd-edit-profile-heading div i{
+    margin-right: 30px;
+}
+
+.wd-edit-profile-input {
+    margin-top: 10px;
+}
+
+.wd-edit-profile-input label{
+    color: gray;
+    width: 100%;
+    border: solid 1px rgb(158, 158, 158);
+    border-bottom: none;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 6px 12px;
+}
+.wd-edit-profile-input textarea {
+    border: solid 1px rgb(160, 160, 160) !important;
+    border-top: none !important;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    height: 40px;
+}
+
+.wd-edit-profile-input textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
