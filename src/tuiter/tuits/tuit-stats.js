@@ -1,5 +1,6 @@
 import React from "react";
-import {toggleLike} from "./tuits-reducer";
+// import {toggleLike} from "./tuits-reducer";
+import {updateTuitThunk} from "../../services/tuits-thunks";
 import {useDispatch} from "react-redux";
 
 const TuitStat = (post) => {
@@ -7,8 +8,12 @@ const TuitStat = (post) => {
     const dispatch = useDispatch();
 
     const toggleLikeHandler = (post) => {
-        dispatch(toggleLike(post));
-        //console.log(post.liked);
+        let newLikes = post.likes;
+        if (post.liked)
+            newLikes -= 1;
+        else
+            newLikes += 1;
+        dispatch(updateTuitThunk({...post, liked: !post.liked, likes: newLikes}));
     }   
 
     return(
