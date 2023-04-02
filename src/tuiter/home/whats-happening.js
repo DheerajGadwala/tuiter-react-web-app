@@ -14,10 +14,13 @@ const WhatsHappening = () => {
         userName: "Virgin",
         time: "now",
         image: "/images/virgin-1.svg",
+        handle: "@virgin",
         likes: 0,
         replies: 0,
         retuits: 0,
-        liked: false
+        liked: false,
+        disliked: false,
+        dislikes:0
       }
       dispatch(createTuitThunk(newTuit));
  }
