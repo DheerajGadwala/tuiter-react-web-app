@@ -38,7 +38,7 @@ const TuitStat = (post) => {
             <a onClick={()=>toggleDislikeHandler(post)}>
             {
                 post.disliked ?
-                <i class="bi bi-hand-thumbs-down-fill wd-black-dislike"></i>
+                <i className="bi bi-hand-thumbs-down-fill wd-black-dislike"></i>
                 :<i className="bi bi-hand-thumbs-down"></i>
             }
             <span>{post.dislikes}</span></a>
